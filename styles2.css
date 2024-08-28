@@ -1,0 +1,106 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+/* Style des titres */
+
+header{
+    background-color: black;
+    border-radius: 12px;
+    color: chocolate;
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    color:chocolate;
+    text-decoration: none;
+}
+#T{
+    position: relative;
+    top: 17px;
+}
+/* Style des paragraphes */
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.C{
+    position: relative;
+    left: 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+/* Style des boutons */
+.B{
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+}
+
+.B:hover {
+    background-color:green;
+}
+.A{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 13px;
+    left: 10px;
+    font-size: large;
+    font-weight: 200;
+}
+.E{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+.E:hover{
+    background-color: chocolate;
+}
+.prix{
+    position: relative;
+    bottom: 30px;
+    left: 13px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    border-radius: 12px;
+    color: chocolate;
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+}
